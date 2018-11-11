@@ -18,9 +18,9 @@ public class junit {
 		chainCalc3.setNextChain(chainCalc4);
 		
 		assertEquals("5.0",5.0,chainCalc1.calculate(new Numbers(3.0,2.0,"add")));
-		//assertEquals("1.0",chainCalc1.calculate(new Numbers(3.0,2.0,"sub")));
-		//assertEquals("6.0",chainCalc1.calculate(new Numbers(3.0,2.0,"mult")));
-		//assertEquals("1.0",chainCalc1.calculate(new Numbers(3.0,2.0,"divid")));
+		assertEquals("1.0",chainCalc1.calculate(new Numbers(3.0,2.0,"sub")));
+		assertEquals("6.0",chainCalc1.calculate(new Numbers(3.0,2.0,"mult")));
+		assertEquals("1.0",chainCalc1.calculate(new Numbers(3.0,2.0,"divid")));
 		
 	}
 
